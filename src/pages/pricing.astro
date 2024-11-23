@@ -6,8 +6,8 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
+    name: "Azure",
+    price: "Custom",
     popular: false,
     features: [
       "Lifetime free",
@@ -23,7 +23,7 @@ const pricing = [
     },
   },
   {
-    name: "Startup",
+    name: "Intune",
     price: {
       monthly: "$19",
       annual: "$16",
@@ -45,7 +45,7 @@ const pricing = [
     },
   },
   {
-    name: "Enterprise",
+    name: "Aws",
     price: "Custom",
     popular: false,
     features: [
@@ -67,9 +67,9 @@ const pricing = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title">Services</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Lightspeed Solutions offers consulting for Azure, Intune and your AWS digital footprints.
       </Fragment>
     </Sectionhead>
 
