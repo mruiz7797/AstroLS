@@ -5,11 +5,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: [
-          "Bricolage Grotesque Variable",
-          "Inter Variable",
-          "Inter",
-          ...defaultTheme.fontFamily.sans,
+       sans: [
+          "Roboto", // Adding Roboto for body text
+          ...defaultTheme.fontFamily.sans, // Fallback to default sans fonts
+        ],
+         heading: [
+          "Montserrat", // Adding Montserrat for headings
+          ...defaultTheme.fontFamily.sans, // Fallback to default sans fonts
         ],
       },
     },
