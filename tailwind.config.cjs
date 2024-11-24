@@ -7,6 +7,8 @@ module.exports = {
       fontFamily: {
         sans: [
           "Bricolage Grotesque Variable",
+          "Montserrat",
+          "Roboto",
           "Inter Variable",
           "Inter",
           ...defaultTheme.fontFamily.sans,
